@@ -25,7 +25,7 @@ SECRET_KEY = '5!cg@rosnt-bla6@%s06@@505k9f6pqam098vev#rjkj0yn65a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = [gkdud.herokuapp.com, ]
+ALLOWED_HOSTS = ['gkdud.herokuapp.com', ]
 
 
 # Application definition
